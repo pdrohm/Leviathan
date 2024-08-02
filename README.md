@@ -1,8 +1,8 @@
-![Bruce Main Menu](./media/bruce_banner.png)
+![Leviathan Main Menu](./media/Leviathan_banner.png)
 
-# Bruce
+# Leviathan
 
-Bruce is meant to be a versatile ESP32 firmware that supports a ton of offensive features focusing to facilitate on Red Team operations.
+Levianis based on Bruce.  Is meant to be a versatile ESP32 firmware that supports a ton of offensive features focusing to facilitate on Red Team operations.
 It also supports m5stack products and works great with Cardputer and Sticks.
 
 # Discord Server
@@ -10,27 +10,27 @@ It also supports m5stack products and works great with Cardputer and Sticks.
 
 # Why and how does it look?
 
-Bruce stems from a keen observation within the community focused on devices like Flipper Zero. While these devices offered a glimpse into the world of offensive security, there was a palpable sense that something more could be achieved without being that overpriced, particularly with the robust and modular hardware ecosystem provided by m5stack products.
+Leviathan stems from a keen observation within the community focused on devices like Flipper Zero. While these devices offered a glimpse into the world of offensive security, there was a palpable sense that something more could be achieved without being that overpriced, particularly with the robust and modular hardware ecosystem provided by m5stack products.
 
-![Bruce Main Menu](./media/pic1.png)
-![Bruce Config](./media/pic2.png)
-![Bruce on StickC](./media/pic4.png)
+![Leviathan Main Menu](./media/pic1.png)
+![Leviathan Config](./media/pic2.png)
+![Leviathan on StickC](./media/pic4.png)
 
 # How to install
 
 ## For m5stack devices
-The easiest way to install Bruce is if you already use M5Launcher to manage your m5stack device, you can install it with OTA
+The easiest way to install Leviathan is if you already use M5Launcher to manage your m5stack device, you can install it with OTA
 
-Or you can burn it directly from the [m5burner tool](https://docs.m5stack.com/en/download), just search for 'Bruce' (My official builds will be uploaded by "owner" and have photos.) on the device category you want to and click on burn
+Or you can burn it directly from the [m5burner tool](https://docs.m5stack.com/en/download), just search for 'Leviathan' (My official builds will be uploaded by "owner" and have photos.) on the device category you want to and click on burn
 
 Alternatively you can also download the latest binary from releases and flash locally using esptool.py
 ```sh
-esptool.py --port /dev/ttyACM0 write_flash 0x00000 Bruce.bin
+esptool.py --port /dev/ttyACM0 write_flash 0x00000 Leviathan.bin
 ```
 or use a web flasher like https://web.esphome.io/
 
 # Wiki
-For more information on each function supported by Bruce, [read our wiki here](https://github.com/pr3y/Bruce/wiki).
+For more information on each function supported by Leviathan, [read our wiki here](https://github.com/pr3y/Leviathan/wiki).
 
 # List of Features
 
@@ -118,19 +118,19 @@ For more information on each function supported by Bruce, [read our wiki here](h
  
 # Disclaimer
 
-Bruce is a tool for cyber offensive and red team operations, distributed under the terms of the Affero General Public License (AGPL). It is intended for legal and authorized security testing purposes only. Use of this software for any malicious or unauthorized activities is strictly prohibited. By downloading, installing, or using Bruce, you agree to comply with all applicable laws and regulations. This software is provided free of charge, and we do not accept payments for copies or modifications. The developers of Bruce assume no liability for any misuse of the software. Use at your own risk.
+Leviathan is a tool for cyber offensive and red team operations, distributed under the terms of the Affero General Public License (AGPL). It is intended for legal and authorized security testing purposes only. Use of this software for any malicious or unauthorized activities is strictly prohibited. By downloading, installing, or using Leviathan, you agree to comply with all applicable laws and regulations. This software is provided free of charge, and we do not accept payments for copies or modifications. The developers of Leviathan assume no liability for any misuse of the software. Use at your own risk.
 
 # Changelog
 * 1.2.2
     * new clock icon
     * clock redraw for a slightly better one
     * add default ssid and password (values: Mobile-AP / mobile-ap) on WiFi connect (to not type pwd on M5StickC Plus 2)
-    * add password (brucenet) to WiFi AP feature, and add QRCode to connect to it (more secure and easy to connect with QRCode)
+    * add password (Leviathannet) to WiFi AP feature, and add QRCode to connect to it (more secure and easy to connect with QRCode)
     * simple BT connection (code from M5 demo)
     * BLE recon / scanner 
-    * QRCodes display (code from Nemo) (BruceAP, RickRoll, HackerTyper, ZomboCom)
+    * QRCodes display (code from Nemo) (LeviathanAP, RickRoll, HackerTyper, ZomboCom)
     * Mic spectrum (code from M5 demo)
-    * center Bruce and version to splashscreen for better UI
+    * center Leviathan and version to splashscreen for better UI
     * set & display clock from RTC
     * UI bug fixes (like Wifi info drawn on top of the UI boders)
     * return to main menu fixed and added when missing
