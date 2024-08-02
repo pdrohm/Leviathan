@@ -2,7 +2,7 @@
 
 # Leviathan
 
-Levianis based on Bruce.  Is meant to be a versatile ESP32 firmware that supports a ton of offensive features focusing to facilitate on Red Team operations.
+Leviathan is based on Bruce.  Is meant to be a versatile ESP32 firmware that supports a ton of offensive features focusing to facilitate on Red Team operations.
 It also supports m5stack products and works great with Cardputer and Sticks.
 
 # Discord Server
